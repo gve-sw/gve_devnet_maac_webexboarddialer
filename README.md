@@ -12,9 +12,11 @@ HTML Button for Webex Boards to dial a Webex Calling HuntGroup
 *  webex
 
 ## Prerequisites
+A valid Webex organization with a registered Webex Board. There should also be a reachable phone number destination for the Hunt Group. 
+
 Modify the variables.py script with the following values: 
 
-* Access to a Webex Board (Username and Password). Create the base64 Authorization using publicly available tools like 
+* Access to a Webex Board (Username and Password). Create the base64 Authorization using publicly available tools like
   https://www.base64encode.org/ and make sure to encode the username and password using this format: 
   username:password
   then modify the Authorization token like this: "Basic dXNlcm5hbWU6cGFzc3dvcmQ=" - the word Basic is added manually.
